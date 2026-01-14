@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RequestController {
     
     @GetMapping("/hello") public String getRoot(){
-        return "Hello! V2.0";
+        return "Hello! V2.1";
     }
 }
